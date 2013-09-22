@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HyperLink1Resource1.Text" xml:space="preserve">
+    <value>info@ocimap.com</value>
+  </data>
+  <data name="HyperLink1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Residència.</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>1. FITXERS DE DADES PERSONALS, FINALITAT DEL TRACTAMENT I CATEGORIES DE DADES PERSONALS</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Les dades dels usuaris recollides a través dels Serveis s'incorporen a un fitxer denominat "USUARIS OCIMAP", inscrit en el Registre General de Protecció de Dades. Quan l'usuari sol·liciti la prestació de serveis que impliquen la seva localització, com l'enregistrament d'una ruta o punt d'interès, o la navegació d'una ruta descarregada, la prestació dels Serveis pot incloure el tractament de les seves dades de localització, que s'utilitzaran per a les finalitats que s'indiquen a continuació i per permetre o millorar la prestació dels serveis. La finalitat d'aquest fitxer és la gestió del lloc web i així com la prestació dels serveis i l'enviament de correus electrònics relatius als serveis de Ocimap i les rutes que l'usuari hagi sol·licitat, incloent l'adaptació del contingut a què accedeix. En qualsevol moment pot cancel·lar la subscripció a aquests correus electrònics a la secció "Perfil".</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Les dades personals que poden recollir en el moment del registre, o posteriorment, són els següents:</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Nom d'usuari (obligatori).</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>2. COMUNICACIONS DE DADES PERSONALS</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>Addicionalment, els usuaris poden incorporar les seves llocs i rutes a través dels Serveis, incloent informació geogràfica, data, mitjà de transport, durada de la ruta, grau de dificultat, fotografies i vídeos realitzats i els comentaris que consideren convenients. També poden establir quines són les seves rutes favorites, i fer el seguiment de les activitats d'altres usuaris.</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>La mecànica de funcionament dels Serveis implica que part de la informació facilitada pels usuaris es posarà a disposició dels altres usuaris a través del lloc web. Els usuaris que poden accedir a aquesta informació poden ser a qualsevol país del món. En cas que no desitgeu que la informació proporcionada durant el procés de registre es posi a disposició dels altres usuaris, simplement s'ha d'abstenir de facilitar ja que no és obligatòria per poder utilitzar els Serveis. En qualsevol moment pot modificar o esborrar aquesta informació, a excepció del nom d'usuari, i el correu electrònic, accedint a la secció "Perfil". En qualsevol cas, Ocimap no publica el seu correu.</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>Ocimap manté un fòrum en el qual els usuaris sol·liciten ajuda o realitzen suggeriments. Les dades personals que els usuaris incorporin a aquest fòrum estan subjectes al que estableix aquesta Política de Privacitat, i estan a disposició dels altres usuaris del fòrum.</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Política de privacitat</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>Qualsevol usuari que publiqui qualsevol part del Lloc Web informació personal de tercers haurà d'haver obtingut prèviament amb el consentiment d'aquests tercers.</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>3. EXERCICI DELS DRETS D'ACCÉS, RECTIFICACIÓ, CANCEL·LACIÓ O OPOSICIÓ.</value>
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>Els llocs i rutes públiques i determinada informació associada a elles es comparteix amb Google Inc i societats del grup de Google perquè puguin ser mostrades mitjançant el visor de Google Earth. Ocimap no assumeix cap responsabilitat respecte del tractament de les dades personals que realitzi Google.</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>Ocimap també ofereix als usuaris la possibilitat de mostrar les seves rutes a Facebook. Per això, cal que Ocimap i Facebook comparteixin les dades de caràcter personal dels usuaris. Ocimap no assumeix cap responsabilitat respecte del tractament de les dades personals que realitzi Facebook.</value>
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>Febrer 2013</value>
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>Localització</value>
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26Resource1.Text" xml:space="preserve">
+    <value>Ocimap garanteix l'exercici dels drets d'accés, rectificació, cancel·lació o oposició que la Llei Orgànica 15/1999, de Protecció de dades de caràcter personal, atorga als interessats davant dels responsables de fitxers. Com s'ha indicat, els usuaris poden accedir i modificar les seves dades directament a la secció "Perfil".</value>
+  </data>
+  <data name="Label26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>A més, qualsevol interessat que vulgui exercitar algun dels drets anteriors podrà fer-ho a la direcció del responsable del fitxer establerta en aquesta Política de privadesa o en la següent adreça de correu electrònic info@ocimap.com, fent referència clara en l'assumpte del missatge al exercici del dret corresponent i dirigint el correu electrònic a l'atenció dels administradors de Ocimap.</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>En aplicació del que disposa el Reial Decret 1720/2007, l'exercici dels drets a través d'aquest mecanisme haurà de complir el següent procediment:</value>
+  </data>
+  <data name="Label28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>La comunicació dirigida al responsable del fitxer contindrà:</value>
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Contrasenya (obligatori).</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30Resource1.Text" xml:space="preserve">
+    <value>Ocimap contestarà la sol·licitud que li dirigeixi en tot cas, amb independència que figurin o no dades personals de l'afectat en els seus fitxers. En el cas que la sol·licitud no reunisca els requisits especificats en l'apartat primer, Ocimap sol·licitarà l'esmena dels mateixos.</value>
+  </data>
+  <data name="Label30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>Les següents clàusules són aplicables en funció de la concreta recollida de dades que realitzi Ocimap.</value>
+  </data>
+  <data name="Label31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>4. UTILITZACIÓ DE COOKIES I DE LA DIRECCIÓ IP DELS USUARIS</value>
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.Text" xml:space="preserve">
+    <value>El lloc web utilitza galetes per facilitar i personalitzar la navegació de l'usuari pel lloc web.</value>
+  </data>
+  <data name="Label33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.Text" xml:space="preserve">
+    <value>Nom i cognoms de l'interessat, fotocòpia del seu DNI, o del seu passaport o un altre document vàlid que l'identifiqui i, si s'escau, de la persona que el representi, així com el document acreditatiu de tal representació.</value>
+  </data>
+  <data name="Label34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.Text" xml:space="preserve">
+    <value>Petició en què es concreta la sol·licitud.</value>
+  </data>
+  <data name="Label35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36Resource1.Text" xml:space="preserve">
+    <value>Adreça a efectes de notificacions, data i signatura del sol·licitant.</value>
+  </data>
+  <data name="Label36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37Resource1.Text" xml:space="preserve">
+    <value>Documents acreditatius de la petició que formula, si s'escau.</value>
+  </data>
+  <data name="Label37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38Resource1.Text" xml:space="preserve">
+    <value>En la utilització del Lloc Web, poden utilitzar cookies. Una galeta és un fragment d'informació que l'ordinador o els ordinadors que alberguen el lloc web envien al navegador de l'usuari quan accedeix al lloc web. Les galetes de Ocimap ajuden a proporcionar funcionalitats addicionals al lloc web, i ajuden a analitzar l'ús del lloc de manera més precisa. Per exemple, el lloc web podria col·locar una galeta al vostre navegador que eviti que l'usuari hagi de recordar i introduir la contrasenya més d'una vegada durant la visita al lloc web. En la majoria dels navegadors, l'usuari trobarà una secció de "Ajuda" a la barra d'eines. Ocimap remet a aquesta secció per obtenir més informació sobre la recepció de notificacions quan es rep una nova cookie, i sobre com desactivar les cookies. Ocimap informa als usuaris de deixar les galetes activades ajuda a aprofitar algunes de les funcions del Lloc Web.</value>
+  </data>
+  <data name="Label38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label39Resource1.Text" xml:space="preserve">
+    <value>Ocimap no utilitza les galetes amb fins publicitaris ni per associar les dades de navegació amb persones físiques que no s'hagin identificat prèviament.</value>
+  </data>
+  <data name="Label39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>El lloc web ubicat a l'adreça http://www.ocimap.com, incloent qualsevol dels seus subdominis o seccions (en endavant, el "Lloc Web") està operat per Juan Miguel Gadea Sellés (en endavant "Ocimap") igual que qualsevol de les aplicacions mòbils publicades per Ocimap (en endavant, les "aplicacions").</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label40Resource1.Text" xml:space="preserve">
+    <value>Aquest lloc web també té accés a l'adreça IP amb la qual els usuaris accedeixen al mateix. La direcció IP amb la qual cada usuari accedeix al lloc web pot no ser la mateixa en cada ocasió. A més, diferents usuaris poden compartir una mateixa adreça IP.</value>
+  </data>
+  <data name="Label40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label41Resource1.Text" xml:space="preserve">
+    <value>Tot i que Ocimap no fa ni farà cap tasca dirigida a associar l'adreça IP amb persones físiques concretes, l'accés a les adreces IP pot ser considerat com un tractament de dades personals en virtut del caràcter potencialment identificable de la persona física a la qual pot estar associada la IP (possibilitat més teòrica que real), de manera que d'acord amb LOPD, és aplicable el que disposa aquesta Política de Privacitat.</value>
+  </data>
+  <data name="Label41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.Text" xml:space="preserve">
+    <value>Els tercers que s'anuncien en el lloc web podrien utilitzar cookies o 'web Beacons' dels que Ocimap no seria responsable ni quedarien coberts per aquesta Política de Privacitat, pel que és responsabilitat de l'usuari configurar el seu navegador perquè les galetes només puguin utilitzar d'acord amb les seves pròpies preferències.</value>
+  </data>
+  <data name="Label42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43Resource1.Text" xml:space="preserve">
+    <value>5. MISSATGES REBUTS EN L'APARTAT "CONTACTE" I COMENTARIS REBUTS AL BLOC</value>
+  </data>
+  <data name="Label43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44Resource1.Text" xml:space="preserve">
+    <value>Qualsevol informació rebuda per Ocimap al formulari de "Enviar suggeriment" disponible al lloc web només serà utilitzada amb la finalitat de contestar les consultes, suggeriments o queixes enviades pels usuaris del lloc web.</value>
+  </data>
+  <data name="Label44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label45Resource1.Text" xml:space="preserve">
+    <value>6. GENERALITATS I DADES DE CONTACTE</value>
+  </data>
+  <data name="Label45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46Resource1.Text" xml:space="preserve">
+    <value>El tractament de dades personals es regeix per la llei espanyola.</value>
+  </data>
+  <data name="Label46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label47Resource1.Text" xml:space="preserve">
+    <value>Ocimap té domicili al C/ Migjorn, 33, La Nucia, Alacant, Espanya. També pot contactar amb Ocimap a l'adreça de correu electrònic</value>
+  </data>
+  <data name="Label47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48Resource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Label48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Correu electrònic (obligatori).</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>La present Política de Privacitat regula el tractament de dades personals dels usuaris del lloc web per part de Ocimap en el Lloc Web, en el marc dels serveis prestats en el lloc web (en endavant, els "Serveis").</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>L'accés i ús del lloc web suposen que l'usuari ha llegit i accepta en la seva totalitat la present Política de Privacitat. La data a l'inici d'aquesta Política de Privacitat indica la data de l'última revisió de la Política de Privacitat, que és aplicable des de la data de la publicació. Ocimap recomana per tant revisar la Política de Privacitat regularment.</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Data de naixement</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Alguns dels serveis que es presten a través del Lloc Web poden sotmetre a polítiques de privacitat específiques, que completaran o, si són contràries a aquesta política de privacitat, substituiran el contingut de la present Política de Privacitat, i que ha d'acceptar el usuari abans d'iniciar la prestació del servei corresponent.</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Així mateix, pel que fa a l'accés i ús del lloc web, i els Serveis són aplicables les Condicions.</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>

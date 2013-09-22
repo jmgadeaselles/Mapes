@@ -1,0 +1,81 @@
+﻿
+html,body,form
+{
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+input, select, textarea
+{
+    padding: 2px;
+    border: 1px solid #000080;
+    background-color: #E1E1FF;
+}
+
+input:hover, textarea:hover, select:hover
+{
+    border-color: #FF9966;
+}
+
+input:focus, textarea:focus, select:focus
+{
+    border-color: #FF6600; 
+}
+
+
+a
+{
+    color: #000080;
+    text-decoration: none;    
+}
+a:hover
+{
+    text-decoration: underline;
+}
+img
+{
+    background-color: transparent;
+}
+
+.BarraTop
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    height: 32px;
+    background-color: #5B5BFF;
+    border-bottom-width: 1px;
+    border-bottom-color: #000080;
+    border-bottom-style: solid;
+    vertical-align:middle;
+}
+
+
+
+.BarraBottom
+{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    height:18px;
+    background-color: #5B5BFF;
+    text-align:center;
+    border-top-width: 1px;
+    border-top-color: #000080;
+    border-top-style: solid;    
+}
+
+
+.DivMapa
+{
+    height: auto;
+    position: absolute;
+    bottom:0;
+    left:0px;
+    right:0;
+    top:0px;    
+}

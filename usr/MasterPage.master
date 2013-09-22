@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="MasterPage.master.vb" Inherits="usr_MasterPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="Accedir.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head2" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <br />
+    <table style="width: 100%;">
+        <tr>
+            <td>                
+                <div id="DivInfo" class="DivInfo">
+                    <asp:Label ID="Label4" runat="server" Text="Ventajes per registrarse:" 
+                        meta:resourcekey="Label4Resource1"></asp:Label>
+                    <asp:BulletedList ID="BulletedList1" runat="server" 
+                        meta:resourcekey="BulletedList1Resource1">
+                        <asp:ListItem meta:resourcekey="ListItemResource1">Pots afegir els teus llocs favorits i compartir-los</asp:ListItem>
+                        <asp:ListItem meta:resourcekey="ListItemResource2">Pots afegir rutes per a compartir</asp:ListItem>
+                        <asp:ListItem meta:resourcekey="ListItemResource3">Participar de dades que han aportat altres usuaris</asp:ListItem>
+                    </asp:BulletedList>
+                </div>
+            </td>
+            <td style="text-align: left;" class="style1"> 
+                <div id="DivValidacio" class="DivValidacio">                    
+
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+
+
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</asp:Content>
+

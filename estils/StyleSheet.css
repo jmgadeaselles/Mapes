@@ -1,0 +1,591 @@
+﻿
+*
+{
+    scrollbar-face-color: #CACAFF; 
+    scrollbar-highlight-color: #CACAFF; 
+    scrollbar-shadow-color: #CACAFF ; 
+    scrollbar-3dlight-color:#000080;
+    scrollbar-arrow-color:#000080; 
+    scrollbar-track-color:#D2D2FF; 
+    scrollbar-drakshadow-color:#000080;
+}
+
+
+
+html,body,form
+{
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+
+input, select, textarea
+{
+    padding: 2px;
+    border: 1px solid #000080;
+    background-color: #E1E1FF;
+}
+
+input:hover, textarea:hover, select:hover
+{
+    border-color: #FF9966;
+}
+
+input:focus, textarea:focus, select:focus
+{
+    border-color: #FF6600; 
+}
+
+a
+{
+    color: #000080;
+    text-decoration: none;    
+}
+a:hover
+{
+    text-decoration: underline;
+}
+img
+{
+    background-color: transparent;
+}
+
+
+.Boton
+{
+    background-color: #000080;
+    color: #E1E1FF;
+}
+.Boton:hover
+{
+    background-color: #3366CC;
+    color: #000080;
+    border-color: #000080;
+}
+
+
+
+.BarraTop
+{
+    padding: 0px;
+    margin: 0px;
+    height: 32px;
+    background-color: #5B5BFF;
+    border-bottom-width: 1px;
+    border-bottom-color: #000080;
+    border-bottom-style: solid;
+}
+
+
+.BarraLeft
+{
+    padding: 4px;
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: #000080;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 392px;
+    top: 33px;
+    background-color: #D2D2FF;    
+}
+
+
+.DivMapa
+{
+    height: auto;
+    position: absolute;
+    bottom:0;
+    left:401px;
+    right:0;
+    top:33px;
+}
+
+
+
+
+.BarraLeftEditar
+{
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: #000080;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 600px;
+    top: 33px;
+    background-color: #D2D2FF;
+}
+
+.CeldaLeyenda
+{
+    width: 150px;
+    vertical-align:top;
+}
+
+
+.DivMapaEditar
+{
+    height: auto;
+    position: absolute;
+    bottom:0;
+    left:601px;
+    right:0;
+    top:33px;
+}
+
+
+
+
+.MissatgeError
+{
+    color: #FF0000;
+}
+
+
+.TitolPanel
+{
+    padding: 10px;
+    font-size: x-large;
+}
+
+
+
+
+/*TABS*/
+
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px; /*--Define el ancho de las tabs--*/
+    border-bottom: 1px solid #000080;
+    border-left: 1px solid #000080;
+    width: 391px;
+}
+
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 31px; /*--Sustrae 1px de la altura de la lista desordenada--*/
+    line-height: 31px; /*--Alineamiento vertical del texto dentro de la tabla--*/
+    border: 1px solid #000080;
+    border-left: none;
+    margin-bottom: -1px; /*--Desplaza los item de la lista abajo 1px--*/
+    overflow: hidden;
+    position: relative;
+    background: #D2D2FF;
+}
+
+ul.tabs li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    /*font-size: 1.2em;*/
+    padding: 0 20px;
+    border: 1px solid #fff;
+    
+}
+
+ul.tabs li a:hover
+{
+    background: #AAAAFF;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Estate seguro de que a la tab activa no se le aplicarán estas propiedades hover--*/
+    background: #fff;
+    border-bottom: 1px solid #fff; /*--Esto hace que la tab activa esté conectada con respecto a su contenido--*/
+}
+
+
+
+.tab_container {
+    border: 1px solid #000080;
+    border-top: none;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 390px;
+    background: #fff;
+    position: fixed;
+    top: 70px;
+    bottom: 15px;
+}
+
+.tab_content
+{
+    padding: 10px; /*font-size: 1.2em;*/
+    bottom: 5px;
+    /**/
+    overflow:hidden;
+}
+
+.ScrollLlistat
+{
+    margin: 7px;
+    padding-top: 8px;
+    overflow: auto;
+    clear: both;
+    float: left;
+    position: fixed;
+    left: 5px;
+    /*top: 102px;*/
+    bottom: 15px;    
+    /*height:400px;    */
+    width:375px;
+}
+
+.LlistatLlocs
+{
+    overflow: hidden;    
+}
+
+/*
+    LLISTAT
+*/
+
+.Llistat
+{
+    border-width: 0px;
+    margin: 0px;
+    width: 100%;
+    overflow:auto;
+    /**/
+    clear: both;
+    float: left; 
+
+}
+.fons_item
+{
+    border-width: 0px;       
+}
+.fons_item:hover
+{
+    background-color: #E1E1FF;
+}
+.celda_img
+{
+    vertical-align:top;
+    width:1px;
+}
+
+.titol_lloc
+{
+    font-size: medium;
+}
+
+.editar_item
+{
+    color: #FF0000;
+    font-size: small;
+}
+
+.capa_detalls
+{
+    position: static;
+}
+
+
+/* DETALLS */
+
+.FonsDetall
+{
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    height: auto;
+    z-index: 9998;
+    background-color: #000000;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    visibility:hidden;
+}
+
+
+
+
+.ContingutDetall
+{
+    border: 1px solid #000080;
+    background-color:White;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    height: auto;
+    visibility:hidden;
+    z-index: 9999;
+    overflow:hidden;
+}
+
+
+.FonsTitolDetall
+{
+    background-color: #5B5BFF;
+    height: 32px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000080;
+    vertical-align: middle;
+}
+
+.TitolDetall
+{
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+
+.PanelAutor
+{
+    width:250px; 
+    background-color:#99CCFF;
+}
+
+.OpcionsDetalls
+{
+    position:fixed;
+    top:2px;
+    right:2px;
+    vertical-align: top;
+}
+
+.ContenidorInfo
+{
+    overflow:auto; 
+    height:auto; 
+    top:33px;
+    bottom: 0px; 
+    right: 0px; 
+    left: 0px; 
+    position: fixed;
+}
+
+.DescripcioBreu
+{
+    font-weight: bold;
+}
+
+.ColRecursos
+{
+    border: 1px solid #000080;
+    width: 400px;
+    height: 400px;
+}
+
+
+.Coordenades
+{
+    font-size: small;
+    color: #000080;
+}
+
+
+.TitolSeccioLloc
+{
+    border-width: 1px;
+    border-color: #000066;
+    font-size: large;
+    color: #000066;
+    font-weight: bold;
+    display: block;
+    border-bottom-style: solid;
+}
+
+
+.LinkPujarFoto
+{
+    font-size: medium;
+    color: #FF0000;
+    font-weight: normal;
+}
+
+
+.PujarFoto
+{
+    border: 1px solid #000080;
+    background-color:White;
+    position: relative;
+    width: 400px;    
+    height: auto;
+    visibility:hidden;
+    z-index: 9999;
+    overflow:hidden;
+}
+
+
+
+.PanelHistorial
+{
+    border: 1px solid #000080;
+    background-color:#99CCFF;
+    position: fixed;
+    width: 350px;    
+    height: auto;
+    visibility:hidden;
+    z-index: 9999;
+    overflow:hidden;
+}
+
+
+.CapaLink
+{
+    border: 1px solid #000080;
+    background-color:#99CCFF;
+    position: fixed;
+    width: 350px;    
+    height: auto;
+    visibility:hidden;
+    z-index: 9999;
+    overflow:hidden;    
+}   
+
+
+/* COMENTARIS */
+
+.PanelIniciarSessioComentaris
+{
+    display: block;
+    background-color:#99CCFF;
+}
+.AutorComentari
+{
+    font-weight: bold;
+}
+.DataComentari
+{
+    color: #008000;
+    font-size: small;
+}
+
+
+
+
+/* FOTOS  */
+
+
+.FonsFoto
+{
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    height: auto;
+    z-index: 911000;
+    background-color: #000000;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    visibility:hidden;
+}
+
+
+.ContingutFoto
+{
+    background-color:White;
+    border: 1px solid #000080;
+    padding: 0px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 1100px;
+    height: 600px;
+    margin-top: -301px;
+    margin-left: -551px;
+    visibility: hidden;
+    z-index: 991001;
+    overflow: hidden;    
+}
+
+
+.DetallFoto
+{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+}
+
+
+.MiFoto
+{
+    position:relative;
+    width: auto;
+    max-height:600px;    
+}
+
+
+
+.FonsEditarComentari
+{
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    height: auto;
+    z-index: 921000;
+    background-color: #000000;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    visibility:hidden;
+}
+
+
+
+.EditarComentari
+{
+    position:relative;
+    width: 100%;
+    height: 60px;
+    z-index: 992001;
+    background-color: White;
+    visibility:hidden;
+}
+
+
+.TextEditarFoto 
+{
+    position:relative;
+    width: 100%;
+}
+
+
+
+/* LEGAL */
+
+.TitolLegal
+{
+    font-weight: bold;
+}
+
+.DataLegal
+{
+    font-weight: bold;
+    color: #000066;
+}
+
+.TextLegal
+{
+    text-align: justify;
+    font-size: medium;
+}
+
+.TitolBloc
+{
+    font-size: large;
+    font-weight: bold;
+}

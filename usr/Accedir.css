@@ -1,0 +1,54 @@
+﻿.DivInfo
+{
+    border: 1px solid #000070;
+    background-color: #CCCCFF;
+    width: 400px;
+    height: 250px;
+    position:absolute;
+    top: 75px;
+    left: 75px;
+}
+
+
+.DivValidacio
+{
+    border: 1px solid #000070;
+    background-color: #CCCCFF;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 75px;
+}
+
+
+
+.CampsValidacio
+{
+    width: 175px;
+}
+
+
+
+
+.DivUsuari
+{
+    border: 1px solid #000070;
+    background-color: #CCCCFF;
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: 75px;
+}
+
+
+.CapaCamviarImatge
+{
+    border: 1px solid #000080;
+    background-color:White;
+    position: fixed;
+    width: 400px;    
+    height: auto;
+    visibility:hidden;
+    z-index: 99999999;
+    overflow:hidden;    
+}   

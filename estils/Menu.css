@@ -1,0 +1,74 @@
+﻿
+
+div.menu   
+{
+    text-align: left;
+    width: auto;
+    margin: 20px auto;
+}
+div.menu ul  
+{
+    list-style-type: none;
+    height:15px;
+}
+div.menu ul li.nivel1  
+{    
+    float: left;
+    width: auto;
+    margin-right: 0px;
+}
+div.menu ul a
+{
+    border-style: none;
+    border-width: 0px;
+    display: block;
+    text-decoration: none;
+    background-color: #5B5BFF;
+    padding: 4px;
+    position: relative;
+    vertical-align:top;
+}   
+div.menu ul li:hover 
+{
+    position: relative;
+}
+div.menu ul li a:hover, div.menu ul li:hover a.nivel1
+{
+    background-color: #8484FF;
+    color: #000;
+    position: relative;
+}
+div.menu ul li a.nivel1
+{
+    display: block!important;
+    display: none;
+    position: relative;
+}
+div.menu ul li ul 
+{
+    display: none;
+}
+div.menu ul li a:hover ul, div.menu ul li:hover ul 
+{
+    display: block;
+    position: absolute;
+    left: 0px;
+}
+div.menu ul li ul li a
+{
+    width: 160px;
+    padding: 4px;
+    border-top-color: #000;
+}
+div.menu ul li ul li a:hover
+{
+    border-top-color: #000;
+    position: relative;
+}
+table.falsa 
+{
+    border-collapse:collapse;
+    border:0px;
+    float: left;
+    position: relative;
+}

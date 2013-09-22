@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HyperLink1Resource1.Text" xml:space="preserve">
+    <value>Política de privacitat</value>
+  </data>
+  <data name="HyperLink1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink2Resource1.Text" xml:space="preserve">
+    <value>info@ocimap.com</value>
+  </data>
+  <data name="HyperLink2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>A través dels Serveis, l'Usuari pot crear, desar, publicar, compartir, enviar, buscar i descarregar, rutes i punts GPS (d'ara endavant, les "Rutes i Llocs d'Interès") així com informació i continguts en relació amb les mateixes.</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>L'usuari està autoritzat a utilitzar els Serveis únicament si es tracta d'una persona física i de conformitat amb aquestes Condicions. L'usuari es compromet a utilitzar els Serveis de bona fe i només per a fins domèstics i particulars. En cas d'ús dels Serveis per part dels Usuaris per a qualsevol finalitat diferent del seu ús personal, com per exemple, fins comercials, lucratius o de negoci ha de ser aprovada prèviament per Ocimap.</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>L'usuari es compromet a no usar els Serveis de forma negligent, amb fins fraudulents o amb la finalitat d'infringir la Llei Igualment, l'Usuari es compromet a no dur a terme cap conducta que pogués danyar la imatge, els interessos i els drets de Ocimap o de tercers.</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>L'usuari s'abstindrà d'interferir en el funcionament del lloc web o als Serveis, en particular, de suplantar a un altre usuari o persona. L'usuari es compromet a no realitzar qualsevol acte que danyi, inutilitzi o sobrecarregui, deteriori o impedeixi la normal utilització del Lloc Web o dels Serveis, que afecti la seva seguretat o que dificulti o interfereixi en els mateixos. Queda prohibit l'accés mitjançant robots, aranyes o qualsevol altre dispositiu, programa, aplicació mòbil o eina per accedir, copiar o controlar qualsevol part del Lloc Web o dels Serveis o qualsevol altre accés i ús del lloc web o dels serveis que sigui contrari a la seva explotació normal i amb fins personals o que lesioni injustificadament els interessos de Ocimap, sense autorització expressa prèvia de Ocimap. Igualment, es prohibeix obtenir o intentar obtenir els continguts del lloc web (incloent Contingut de l'Usuari, com aquest terme es defineix més endavant) emprant mitjans o tècniques diferents dels que suposen la forma habitual d'utilització o aquelles autoritzats expressament per Ocimap.</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>En tot cas es presumeix abusiu i no autoritzat l'ús dels Serveis mitjançant les Aplicacions per un usuari quan el seu ús d'un servei concret sigui superior a l'ús que fan el 99% dels usuaris en un període concret i Ocimap consideri que pot afectar la qualitat o seguretat del servei dels altres usuaris. Ocimap procedirà a bloquejar l'accés als usuaris que facin un ús abusiu o no autoritzat. La possibilitat de bloquejar usuaris malintencionats és l'única manera d'assegurar que podem oferir un servei fiable a tots els usuaris legítims.</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>És responsabilitat de l'Usuari comprovar, amb caràcter previ al seu ús, que els Serveis s'adapten a les seves necessitats.</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>3. REGISTRE</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>Per utilitzar determinats Serveis, l'Usuari s'ha de registrar, creant un usuari i contrasenya i activant seu compte. A aquests efectes, l'Usuari ha de proporcionar una adreça de correu electrònic vàlida, a través de la qual rebi qualsevol notificació relativa als Serveis.</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>L'usuari es compromet a proporcionar la informació que s'exigeix ​​per al registre amb caràcter obligatori i també a aportar informació veraç, completa i actualitzada. És responsabilitat seva mantenir actualitzada, en la forma que correspongui, l'esmentada informació. Si l'Usuari proporciona, o Ocimap té motius per sospitar que ha proporcionat, informació falsa, no actualitzada o incompleta, Ocimap podrà suspendre o resoldre el seu registre.</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>L'usuari ha de custodiar la contrasenya, tractar-la de forma confidencial i no revelar a altres persones. No s'ha de permetre a altres usuaris l'accés des del compte de l'Usuari ni utilitzeu el compte d'un altre usuari.</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Condicions legals</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>L'usuari és responsable del que es faci des del seu compte a través de qualsevol dispositiu. Si sospita que un altre usuari està amb el vostre compte, ha d'informar immediatament a Ocimap.</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>Ocimap podrà suspendre o cancel·lar el compte de l'Usuari si considera que ha incomplert les presents Condicions.</value>
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>4. NORMES EN RELACIÓ AMB ELS CONTINGUTS</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>A través dels Serveis, els Usuaris poden:</value>
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>En publicar Rutes i Llocs d'interès, Fotos, Comentaris o qualsevol altra informació o contingut (en endavant, de manera conjunta, el "Contingut de l'Usuari"), l'Usuari es compromet a complir les següents normes:</value>
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>Ocimap es limita a allotjar el contingut de l'Usuari. En conseqüència, Ocimap no edita, selecciona, examina, controla, garanteix, aprova o s'identifica amb el contingut de l'Usuari. En concret, de conformitat amb la Llei 34/2002 de Serveis de la Societat de la Informació i de Comerç Electrònic, Ocimap com a prestador de serveis de la societat de la informació a través del lloc web ni supervisa el contingut del wiki ni pot jutjar els continguts que inclouen els usuaris. Si es desitja fer alguna consulta en relació amb el contingut de l'usuari o creu que infringeix qualsevol dret, que no compleix aquestes Condicions o que és inadequat, pot fer-ho de la següent manera:</value>
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26Resource1.Text" xml:space="preserve">
+    <value>Si es tracta d'una Ruta i Lloc d'Interès, li recomanem que utilitzi els mecanismes existents dins del lloc web per fer-li arribar la seva reclamació a l'autor de la Ruta i Lloc d'Interès. L'autor com a propietari i únic responsable del contingut de l'Usuari és qui ha de valorar la sol·licitud. En qualsevol cas, vostè pot directament i en qualsevol moment seleccionar l'opció "marca com inapropiat" al lloc web i / o incloure un comentari a la referida ruta amb les dades i aclariments que consideri pertinents que haurà idèntica difusió que la pròpia ruta alertant a qualsevol potencial usuari de les qüestions que consideri oportunes, i</value>
+  </data>
+  <data name="Label26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>Sense perjudici que Ocimap no està obligat a efectuar una supervisió general del contingut de l'Usuari, Ocimap pot modificar o esborrar, totalment o parcialment i en qualsevol moment, qualsevol Contingut de l'Usuari que, segons ell, incompleixi aquestes Condicions o pugui ser ofensiu, il·legal o infringir drets de tercers.</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>5. RESPONSABILITAT</value>
+  </data>
+  <data name="Label28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>L'Usuari reconeix i accepta que utilitza el Lloc Web i els Serveis en tot moment sota el seu risc i responsabilitat, de manera que Ocimap no es responsabilitza del mal ús, ús indegut o ús contrari a les presents Condicions que pugui fer dels mateixos.</value>
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>El lloc web ubicat a l'adreça http://www.ocimap.com, incloent qualsevol dels seus subdominis o seccions (en endavant, el "Lloc Web") està operat per Juan Miguel Gadea Sellés (en endavant "Ocimap).</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30Resource1.Text" xml:space="preserve">
+    <value>L'usuari serà responsable dels danys i perjudicis que s'originin a Ocimap com a conseqüència del seu ús del lloc web i dels Serveis incomplint aquestes Condicions i es compromet a mantenir indemne a Ocimap i als seus administradors, personal, agents i representants de qualsevol responsabilitat en la qual puguin incórrer com a conseqüència de l'incompliment per l'usuari.</value>
+  </data>
+  <data name="Label30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>2. ÚS AUTORITZAT</value>
+  </data>
+  <data name="Label31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>Amb caràcter enunciatiu, però no limitatiu, Ocimap no és responsable dels perjudicis que es poguessin derivar de:</value>
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.Text" xml:space="preserve">
+    <value>EXCEPTE EN ELS CAS D'ACTUACIÓ DOLOSA, I AQUELLS EN QUÈ PER LES CIRCUMSTÀNCIES PARTICULARS L'USUARI O DE L'OBJECTE, RESULTI D'APLICACIÓ UN RÈGIM IMPERATIU DE RESPONSABILITAT, L'ÚS DEL LLOC WEB I DELS SERVEIS ES REALITZA A L'ÚNIC I SENCER RISC DE L'USUARI I OCIMAP NO SERÀ RESPONSABLE DE CAP DANY DE QUALSEVOL NATURALESA QUE GENERE A L'USUARI AMB L'ÚS DEL LLOC WEB O DELS SERVEIS.</value>
+  </data>
+  <data name="Label33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.Text" xml:space="preserve">
+    <value>Segons que estableix la condició Quarta anterior, en relació amb els continguts de l'Usuari, Ocimap actua exclusivament com a prestador del servei consistent en habilitar el lloc web com espai a través del qual els usuaris poden emmagatzemar i publicar aquest Contingut de l'Usuari. La responsabilitat per l'emmagatzematge o publicació a través del lloc web i les Aplicacions del contingut de l'Usuari i de tota informació, dades, textos, programari, sons, fotografies, gràfics, vídeos, notícies o altres materials inclosos en aquest, és exclusiva de l'Usuari que l'emmagatzema o publicació excepte en els casos previstos expressament en la Llei</value>
+  </data>
+  <data name="Label34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.Text" xml:space="preserve">
+    <value>La inclusió d'enllaços en els Serveis no pressuposa cap relació, recomanació o supervisió per part de Ocimap amb la pàgina de destinació i, per tant, Ocimap no accepta cap responsabilitat pel seu contingut, excepte en els casos previstos expressament a la Llei.</value>
+  </data>
+  <data name="Label35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36Resource1.Text" xml:space="preserve">
+    <value>6. PROPIETAT INTEL·LECTUAL I INDUSTRIAL</value>
+  </data>
+  <data name="Label36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37Resource1.Text" xml:space="preserve">
+    <value>Tots els drets de propietat industrial i intel·lectual sobre el lloc web, els Serveis, el seu disseny gràfic i codi font, així com sobre els diferents elements inclosos en els mateixos (a títol enunciatiu: textos, imatges, animacions, bases de dades, gràfics, logos, marques, signes distintius, icones, botons, fotografies, vídeos, enregistraments sonors, etc.) pertanyen o estan llicenciats a Ocimap.</value>
+  </data>
+  <data name="Label37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38Resource1.Text" xml:space="preserve">
+    <value>En particular i sense que suposi cap limitació al que estableix el paràgraf anterior, Ocimap ostenta un dret "sui generis" com a fabricant de la base de dades constituïda per tot el contingut del lloc web en els termes que estableixen els articles 133 i següents del Text refós de la Llei de Propietat Intel·lectual. En virtut d'aquest dret Ocimap prohibeix l'extracció i / o reutilització de la totalitat o d'una part substancial del contingut del lloc, avaluada qualitativament o quantitativament. Així mateix Ocimap prohibeix l'extracció i / o reutilització repetides o sistemàtiques de parts no substancials del contingut del lloc web quan suposen actes contraris a una explotació normal d'aquesta base o que causin un perjudici injustificat als interessos legítims de Ocimap.</value>
+  </data>
+  <data name="Label38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label39Resource1.Text" xml:space="preserve">
+    <value>L'usuari està autoritzat únicament a accedir i utilitzar el Lloc Web i els Serveis i efectuar descàrregues dels seus continguts per a un mer ús personal i no comercial o col·lectiu. Llevat dels supòsits en què estigui expressament autoritzat, queda expressament prohibit l'Usuari la reproducció o distribució per a altres fins, així com la transformació, realització d'obres derivades de qualsevol tipus, comunicació pública, posada a disposició, extracció, reutilització o qualsevol ús del lloc web o dels serveis o de qualsevol de les seves parts.</value>
+  </data>
+  <data name="Label39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Febrer 2013</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label40Resource1.Text" xml:space="preserve">
+    <value>L'usuari seguirà sent titular dels drets sobre el contingut de l'Usuari que emmagatzemi o publiqui a través dels Serveis de conformitat amb la Condició Quarta anterior. En particular, el contingut de l'Usuari emmagatzemat o publicat per l'usuari en relació amb una Ruta o un Lloc d'Interès de la seva titularitat constituirà una unitat de contingut, que s'ofereix de forma conjunta i inseparable (excepte pel que fa a descàrregues en GPS ), i els drets de propietat intel·lectual sobre tot això pertanyen a aquest usuari.</value>
+  </data>
+  <data name="Label40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label41Resource1.Text" xml:space="preserve">
+    <value>Quan emmagatzemi o publiqui qualsevol Contingut de l'Usuari, l'Usuari atorga a Ocimap, que accepta, una llicència no exclusiva, gratuïta, amb facultat de subllicenciar a qualsevol tercer, amb un àmbit territorial mundial, durant tot el període de vigència reconegut a aquests en virtut de la normativa aplicable, per:</value>
+  </data>
+  <data name="Label41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.Text" xml:space="preserve">
+    <value>L'Usuari garanteix que és titular de tots els drets necessaris sobre el contingut de l'Usuari per emmagatzemar i publicació a través dels Serveis i per l'atorgament de la llicència anterior o que ha obtingut totes les transmissions de drets, llicències, permisos o consentiments.</value>
+  </data>
+  <data name="Label42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43Resource1.Text" xml:space="preserve">
+    <value>Així mateix, quan així resulti de les condicions marcades per l'usuari en el procediment de registre o en la gestió del seu compte, l'Usuari autoritza Ocimap a publicar ia usar de conformitat amb aquestes Condicions tota la informació relativa al seu compte que l'Usuari hagi acceptat publicar. L'Usuari reconeix que el seu nom d'usuari i nom i cognoms serà públic en tot cas.</value>
+  </data>
+  <data name="Label43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44Resource1.Text" xml:space="preserve">
+    <value>7. MODIFICACIÓ O ACABAMENT DELS SERVEIS</value>
+  </data>
+  <data name="Label44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label45Resource1.Text" xml:space="preserve">
+    <value>Ocimap podrà, en qualsevol moment i sense incórrer en cap responsabilitat, variar el contingut del lloc web o els serveis, interrompre la prestació de tots o alguns dels Serveis i funcionalitats o desactivar o esborrar totes o algunes dels comptes, sense més limitació que les establertes per les lleis aplicables sobre l'obligació de mantenir registres de determinades operacions durant els terminis legals corresponents.</value>
+  </data>
+  <data name="Label45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46Resource1.Text" xml:space="preserve">
+    <value>8. GENERALITATS I DADES DE CONTACTE</value>
+  </data>
+  <data name="Label46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label47Resource1.Text" xml:space="preserve">
+    <value>L'ús del lloc web i dels Serveis es regeix per la llei espanyola.</value>
+  </data>
+  <data name="Label47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48Resource1.Text" xml:space="preserve">
+    <value>En el cas que alguna de les disposicions contingudes en les presents Condicions sigui declarada nul·la, es procedirà a la retirada o substitució. En qualsevol cas, aquesta declaració de nul·litat no afecta la validesa de la resta de disposicions recollides en les presents Condicions.</value>
+  </data>
+  <data name="Label48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label49Resource1.Text" xml:space="preserve">
+    <value>Pots posar-te en contacte amb Ocimap a l'adreça de correu electrònic </value>
+  </data>
+  <data name="Label49Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Ocimap no garanteix la disponibilitat i continuïtat del funcionament del Lloc Web i dels Serveis, ni la seva fiabilitat, exactitud o correcció o la seva utilitat per a una finalitat o activitat específica. En la mesura permesa per la normativa aplicable, Ocimap exclou qualsevol responsabilitat pels danys i perjudicis de tota naturalesa que puguin deure de l'anterior.</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label55Resource1.Text" xml:space="preserve">
+    <value>Crear, guardar, allotjar o compartir els seus Rutes i Llocs d'interès, a través del lloc web.</value>
+  </data>
+  <data name="Label55Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label56Resource1.Text" xml:space="preserve">
+    <value>Allotjar i publicar fotos, o informació addicional en relació amb aquestes Rutes i Llocs d'interès o amb el seu compte, a través del lloc (en endavant, les "Fotos").</value>
+  </data>
+  <data name="Label56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label57Resource1.Text" xml:space="preserve">
+    <value>Expressar les seves opinions i comentaris a les Rutes i Llocs d'interès oa través del Fòrum (d'ara endavant, els "Comentaris").</value>
+  </data>
+  <data name="Label57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label58Resource1.Text" xml:space="preserve">
+    <value>Els Usuaris han de tenir en compte que a través dels Serveis poden publicar el Contingut de l'Usuari en un fòrum públic i que són responsables del que emmagatzemin i publiquin a través del lloc.</value>
+  </data>
+  <data name="Label58Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label59Resource1.Text" xml:space="preserve">
+    <value>L'usuari ha de ser titular dels drets de propietat intel·lectual, industrial o de qualsevol altre tipus sobre el contingut de l'Usuari que comparteixi, per ser el seu autor o titular originari o estar autoritzat pel corresponent autor o titular dels drets.</value>
+  </data>
+  <data name="Label59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Les presents condicions (d'ara endavant, les "Condicions") regulen l'accés, navegació i ús del lloc web pels seus usuaris (d'ara endavant, el "Usuari" o els "Usuaris", segons correspongui), així com els serveis que es presten a través del Lloc (en endavant, els "Serveis").</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label60Resource1.Text" xml:space="preserve">
+    <value>Si al Contingut de l'Usuari apareix la imatge, veu o nom de qualsevol persona o qualsevol informació confidencial o privada en relació amb la mateixa, aquesta persona ha d'haver autoritzat la publicació d'aquest Contingut.</value>
+  </data>
+  <data name="Label60Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label61Resource1.Text" xml:space="preserve">
+    <value>El Contingut de l'Usuari no ha d'incloure material publicitari o promocional, ni ser emprat per difondre publicitat o amb un ànim de lucre o benefici propi.</value>
+  </data>
+  <data name="Label61Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label62Resource1.Text" xml:space="preserve">
+    <value>El Contingut de l'Usuari no ha d'incloure virus, cucs o qualsevol tipus de codi de naturalesa destructiva.</value>
+  </data>
+  <data name="Label62Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label63Resource1.Text" xml:space="preserve">
+    <value>El Contingut de l'Usuari ha de complir les condicions i requisits tècnics establerts en cada moment per Ocimap.</value>
+  </data>
+  <data name="Label63Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label64Resource1.Text" xml:space="preserve">
+    <value>En la resta dels casos, posant-se en contacte amb Ocimap al correu electrònic indicat al final de les presents Condicions.</value>
+  </data>
+  <data name="Label64Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label65Resource1.Text" xml:space="preserve">
+    <value>Interrupcions, virus, avaries, interferències, omissions o desconnexions del sistema electrònic, del sistema de comunicacions o en els seus equips per motius aliens a Ocimap.</value>
+  </data>
+  <data name="Label65Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label66Resource1.Text" xml:space="preserve">
+    <value>Retards o bloquejos en l'ús del lloc web i dels Serveis per deficiències o sobrecàrregues en Internet, en les línies o en els sistemes elèctrics o de comunicacions.</value>
+  </data>
+  <data name="Label66Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label67Resource1.Text" xml:space="preserve">
+    <value>Actuacions de tercers.</value>
+  </data>
+  <data name="Label67Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label68Resource1.Text" xml:space="preserve">
+    <value>La impossibilitat d'accés al lloc web o als Serveis per tasques de manteniment o actualització.</value>
+  </data>
+  <data name="Label68Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label69Resource1.Text" xml:space="preserve">
+    <value>Qualsevol altre supòsit fora del control de Ocimap.</value>
+  </data>
+  <data name="Label69Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Alguns dels Serveis es poden sotmetre a condicions o instruccions específiques de Ocimap o dels tercers que els facilitin, que completaran o, si són contràries al que aquí s'estableix, substituiran el contingut d'aquestes condicions, i que ha d'acceptar l'Usuari abans d'iniciar la prestació del servei corresponent.</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label70Resource1.Text" xml:space="preserve">
+    <value>Accedir, utilitzar, allotjar, reproduir, modificar, transformar, actualitzar, traduir, publicar, distribuir, esborrar, incorporar o posar a disposició el Contingut de l'Usuari, en tot o part, a través del lloc web o dels serveis oa través de llocs de tercers amb els quals Ocimap acordi la publicació i posada a disposició del Contingut de l'Usuari.</value>
+  </data>
+  <data name="Label70Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label71Resource1.Text" xml:space="preserve">
+    <value>L'adaptació i realització d'obres derivades a partir del contingut de l'Usuari.</value>
+  </data>
+  <data name="Label71Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label72Resource1.Text" xml:space="preserve">
+    <value>L'ús del Contingut de l'Usuari en relació amb altres continguts.</value>
+  </data>
+  <data name="Label72Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label73Resource1.Text" xml:space="preserve">
+    <value>La realització de les activitats tècniques o de manteniment necessàries per al compliment de l'anterior.</value>
+  </data>
+  <data name="Label73Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label74Resource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Label74Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label75Resource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Label75Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>L'accés i ús del lloc web suposen que l'Usuari ha llegit i accepta en la seva totalitat i s'obliga a complir del tot les presents Condicions. Ocimap pot modificar les presents Condicions en qualsevol moment, pel que recomanem la seva revisió regularment. La data a l'inici de les presents Condicions indica la data de l'última revisió d'aquestes Condicions, que és aplicable des de la seva publicació.</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Així mateix, pel que fa a la recollida i ús de dades personals, és aplicable la</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>1. OBJECTE DELS SERVEIS</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>
