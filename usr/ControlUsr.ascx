@@ -3,6 +3,10 @@
     <asp:View ID="VistaAnonim" runat="server">        
         <div id="menu1" class="menu" style="position: absolute; z-index: 999; height: auto; top:-33px; right: 85px;">        
         <ul>          
+          <li class="nivel1"><asp:HyperLink ID="HyperLink8" runat="server" 
+                  NavigateUrl="javascript:detall_nou();" meta:resourceKey="HyperLink6Resource1" 
+                  Text="Nou lloc"></asp:HyperLink></li>        
+          <li class="nivel1">|</li>
           <li class="nivel1"><asp:HyperLink ID="HyperLink4" runat="server" 
                   NavigateUrl="~/usr/Alta.aspx" meta:resourceKey="HyperLink4Resource1" 
                   Text="Registrarse"></asp:HyperLink></li>
